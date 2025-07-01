@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: url('images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    max-width: 350px;
+    background: #f8f9fd;
+    border-radius: 40px;
+    padding: 25px 35px;
+    border: 6px solid #fff;
+    box-shadow: 0px 30px 30px -20px rgba(0,0,0,0.8);
+}
+.heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(16,137,211);
+    cursor: pointer;
+}
+.form input{
+    width: 100%;
+    background: #fff;
+    border: 0;
+    padding: 14px 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px -5px #cff0ff;
+    outline: 0;
+    font-size: 12px;
+    border-inline: 2px solid transparent;
+}
+.form input:focus{
+    outline: none;
+    border-inline: 2px solid #12b1d1;
+}
+.form .forgot-password{
+    display: block;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+.form .forgot-password a{
+    font-size: 11px;
+    text-decoration: none;
+    color: #12b1d1;
+}
+.form .login-button{
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    background: linear-gradient(45deg,rgb(16,137,211),#0de0cf);
+    font-size: 15px;
+    color: #fff;
+    font-weight: 900;
+    padding: 10px 0;
+    margin: 20px auto;
+    border: none;
+    box-shadow: 0px 10px 10px -15px rgba(133,189,215,0.8);
+    transition: all 0.2s ease-in-out;
+}
+.form .login-button:hover{
+    transform: scale(1.06);
+}
+.social-icon-container{
+    margin-top: 25px;
+}
+.social-icon-container .title{
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    color: #535252;
+    margin-bottom: 10px;
+}
+.social-icon-container .social-accounts{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.social-icon-container .social-accounts i{
+    cursor: pointer;
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    transition: all 0.2s ease-in-out;
+}
+.social-icon-container .social-accounts i:hover{
+    transform: scale(1.2);
+}
+.social-icon-container .social-accounts i:nth-child(1){
+    background-color: rgb(180,21,21);
+}
+.social-icon-container .social-accounts i:nth-child(2){
+    background-color: blue;
+}
+.social-icon-container .social-accounts i:nth-child(3){
+    background-color: black;
+}
+.signup-account{
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+.signup-account a{
+    text-decoration: none;
+    color: #535252;
+    font-size: 13px;
+}
+.signup-account .signup{
+    color: #12b1d1;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

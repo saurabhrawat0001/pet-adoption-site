@@ -1,0 +1,261 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Back Button */
+.back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #298071;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.back-button:hover{
+    color: white;
+    background-color: #0f6c5d;
+}
+
+/* Header Section */
+.about-header {
+    background: url('images/ad.webp') no-repeat center center/cover;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.about-header h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.about-header p {
+    font-size: 1.2rem;
+}
+
+/* Our Story Section */
+.our-story {
+    padding: 40px 20px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.our-story img {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Mission and Vision Section */
+.mission-vision {
+    padding: 60px 20px;
+    background: url('images/a2.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+}
+
+.mission, .vision {
+    margin-bottom: 30px;
+}
+
+.mission h2, .vision h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.mission p, .vision p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+    padding: 40px 20px;
+    background: #fff;
+}
+
+.why-choose-us .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.feature {
+    flex: 1 1 30%;
+    margin: 20px;
+    text-align: center;
+}
+
+.feature img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Call to Action Section */
+.call-to-action {
+    padding: 40px 20px;
+    background: #007b67;
+    color: white;
+    text-align: center;
+}
+
+.call-to-action .cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    background: white;
+    color: #007b67;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Footer Section */
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+/* Responsive Design */
+
+/* For screens smaller than 992px (Tablets) */
+@media screen and (max-width: 992px) {
+    .about-header h1 {
+        font-size: 2.5rem;
+    }
+
+    .about-header p {
+        font-size: 1rem;
+    }
+
+    .mission, .vision {
+        margin-bottom: 20px;
+    }
+
+    .mission p, .vision p {
+        font-size: 1rem;
+    }
+
+    .why-choose-us .features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature {
+        flex: 1 1 80%;
+    }
+
+    .feature img {
+        max-width: 100%;
+    }
+}
+
+/* For screens smaller than 768px (Mobile) */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .about-header {
+        padding: 70px 10px;
+    }
+
+    .about-header h1 {
+        font-size: 2rem;
+    }
+
+    .about-header p {
+        font-size: 0.9rem;
+    }
+
+    .our-story img {
+        width: 90%;
+    }
+
+    .call-to-action .cta-button {
+        font-size: 1rem;
+        padding: 8px 15px;
+    }
+
+    .feature {
+        margin: 10px 0;
+    }
+}
+
+/* For screens smaller than 480px (Small Mobile) */
+@media screen and (max-width: 480px) {
+    .about-header {
+        padding: 50px 5px;
+    }
+
+    .about-header h1 {
+        font-size: 1.8rem;
+    }
+
+    .about-header p {
+        font-size: 0.8rem;
+    }
+
+    .mission-vision {
+        padding: 30px 10px;
+    }
+
+    .mission h2, .vision h2 {
+        font-size: 1.5rem;
+    }
+
+    .mission p, .vision p {
+        font-size: 0.9rem;
+    }
+
+    .why-choose-us {
+        padding: 30px 10px;
+    }
+
+    .feature img {
+        max-width: 100%;
+    }
+
+    .call-to-action {
+        padding: 30px 10px;
+    }
+
+    .call-to-action h2 {
+        font-size: 1.5rem;
+    }
+
+    .call-to-action p {
+        font-size: 0.9rem;
+    }
+
+    .call-to-action .cta-button {
+        font-size: 0.9rem;
+        padding: 7px 12px;
+    }
+}
